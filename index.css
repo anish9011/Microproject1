@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: Inter;
+}
+
+.main-banner {
+    display: flex;
+    background-color: #ffcd9e;
+    height: 65vh;
+}
+
+.content-left {
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.main-header {
+    font-style: normal;
+    font-size: 31px;
+    font-weight: 700;
+    width: 80%;
+    color: #282828;
+}
+
+.sub-description {
+    font-style: normal;
+    font-size: 19px;
+    font-weight: 500;
+    width: 65%;
+    color: #484848;
+    line-height: 160%;
+}
+
+.main-tag {
+    font-style: normal;
+    font-size: 19px;
+    font-weight: 800;
+    color: #282828;
+}
+
+input {
+    background: #FFFFFF;
+    border: 3px solid #000000;
+    border-radius: 8px;
+    width: 15rem;
+    height: 32px;
+    margin-top: 12px;
+    margin-right: 12px;
+    padding-left: 20px;
+}
+
+button {
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 700;
+    background: #282828;
+    color: #fff;
+    width: 10em;
+    height: 40px;
+    line-height: 24px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.info-line {
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 12px;
+    margin-left: 20px;
+    color: #fff;
+}
+
+.site-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background: #282828;
+    color: #fff;
+    height:35vh;
+}
+
+.site-footer ul {
+    list-style: none;
+}
+
+.site-footer ul li {
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.footer-list2 {
+    text-align: right;
+}
+
+.social-icons {
+    height: 16px;
+}
